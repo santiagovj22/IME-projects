@@ -1,0 +1,50 @@
+ /* global styling */
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: Helvetica, Arial, sans-serif;
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+ }
+
+ /* navbar menu */
+
+ nav {
+     background-color: #000;
+ }
+
+ nav>ul {
+     list-style-type: none;
+     overflow: hidden;
+ }
+
+ nav>ul>li {
+     float: right;
+ }
+
+ img.brand-logo {
+     width: 80px;
+     margin-top: 10px;
+ }
+
+ a.navbar-link {
+     display: block;
+     font-size: 16px;
+     line-height: inherit;
+     font-weight: 700;
+     padding: 28px 17px;
+ }
+
+ /*Playlist images*/
+
+ .playlist-container {
+     display: inline-block;
+ }
+
+ .playlist-box>img {
+     width: 100px;
+ }
