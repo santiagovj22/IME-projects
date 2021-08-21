@@ -1,0 +1,139 @@
+
+/* Global styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Header styles*/
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url('./img/background.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: rgb(224, 231, 230);
+    text-align: center;
+}
+
+header .textos{
+    margin-top: 200px;
+}
+header .titulo{
+    font-size: 80px;
+}
+
+header .subtitulo{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+header .boton{
+    padding: 10px;
+    width: 130px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+header .boton:hover{
+    background-color: rgba(95, 158, 160, 0.493);
+}
+
+
+.sesgoabajo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+}
+
+/* Main styles*/
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px;
+}
+.sobre-nosotros{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.slogan{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.parrafo{
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 20px;
+    color: black;
+}
+.acerca-de .boton{
+    display: flex;
+    float: right;
+    padding: 6px;
+    width: 130px;
+    font-weight: 300;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.acerca-de .boton:hover{
+    background-color: black;
+    color: white;
+}
+.galeria{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes{
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.sesgoarriba{
+    z-index:10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 25vh 100vw 0 0;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
