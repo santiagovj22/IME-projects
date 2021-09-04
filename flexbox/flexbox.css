@@ -1,0 +1,38 @@
+.container{
+    width: 23%;
+    height: 400px;
+    background-color: #dedede;
+    float: left;
+    margin: 10px;
+    display: flex; /*<---*/
+}
+
+.items{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+}
+/* flex works with directions*/
+.c1 {
+    /* one line or multi-line */
+    /* flex-direction: column;
+    flex-wrap: wrap;*/
+    /*other way*/
+    flex-flow: column wrap; 
+}
+
+.c2{
+    flex-flow: column-reverse wrap-reverse;
+}
+
+.c3{
+    flex-flow: row wrap;
+}
+
+.c4{
+    flex-flow: row-reverse wrap-reverse;
+}
