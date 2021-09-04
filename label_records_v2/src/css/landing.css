@@ -85,9 +85,11 @@
 
  .videos {
      margin: 10px;
+     display: flex;
+     justify-content: center;
  }
 
  .videos>iframe {
      margin: 20px;
-     width: 200px;
+     /* width: 200px; */
  }
