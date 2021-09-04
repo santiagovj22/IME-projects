@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article{
+    border: 1px solid red;
+    margin-bottom: 100px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 200px;
+}
+
+/* Despliegue en bloque */
+
+.bloque div {
+    display: block; 
+}
+
+/* Despliegue en linea */
+
+.enlinea div{
+   display: inline; /* Linea alterando la caja*/
+   display: inline-block;  /* Linea sin alterar la caja*/
+}
+
+/* Despliegue en tabla */
+
+.tabla div{
+    display: table-cell; /*Ignora los margenes, se convierte en celdas*/
+}
+
+/* RELATIVO: zona que lo rodea no lo afecta, sigue cumpliendo sus posiciones de posicion */
+.relativo{
+    position: relative;
+    left: 300px;
+}
+
+/* ABSOLUTO: Decir en forma exacta que posicion se ponga la caja sin afectar las cajas */
+.absoluto{
+    position: absolute;
+    left: 600px;
+}
+
+/* FIJO: solo se fija donde uno le diga */
+.fijo{
+    background-color: rgb(0, 255, 85);
+    position: fixed;
+    right: 100px;
+    top: 500px;
+}
+/* posicionamiento flotante*/
+.flotante{
+    height: 400px;
+    width: 100%;
+}
+.flotante div{
+    float: left;
+}
+.flotante div:nth-child(2){
+    float: right;
+}
